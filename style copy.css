@@ -1,0 +1,114 @@
+body {
+    font: 20px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: #F1EFE7;
+    background-color: #2A2A72;
+    padding-top: 0px !important;
+  }
+
+.textcontainer {
+  padding: 2% 10%;;
+}
+
+.note-block {
+  background-color: #FF8C42; /* Replace with your desired color */
+  padding: 16px;
+  margin: 20px 0;
+  border-radius: 8px;
+  font-family: sans-serif;
+}
+
+p {font-size: 20px;}
+.margin {margin-bottom: 30px;}
+
+a {
+  color: #F1EFE7;
+}
+
+.container-fluid {
+  padding: 0px;
+  /*padding-bottom: 70px;*/
+}
+
+nav {
+  background-color: #F1EFE7;
+  color: #F1EFE7;
+  padding: 50px 0px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.nav-title{
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #000000;
+}
+
+.nav-link {
+  border: 3px outset #FF8C42;
+  border-radius: 20px;
+  padding: 10px 30px;
+  background-color: #FF8C42;
+  color: #000000;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  border: 3px outset #FF8C42;
+  border-radius: 20px;
+  padding: 10px 30px;
+  background-color: #d66000;
+  transition: 0.3s;
+}
+
+#btn {
+  border: 3px outset #FF8C42;
+  border-radius: 40px;
+  padding: 10px 30px;
+  background-color: #FF8C42;
+  color: #000000;
+  transition: 0.3s;
+}
+
+#btn:hover {
+  border: 3px inset #FF8C42;
+  border-radius: 40px;
+  padding: 10px 30px;
+  background-color: #d66000;
+  transition: 0.3s;
+}
+
+.row {
+  margin: auto auto;
+}
+
+.flexrow {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.center-row {
+  display: flex;
+  justify-content: center;
+}
+
+code {
+  
+  color: #F1EFE7;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.caption {
+  color: gray;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+#aboutme {
+  padding: 20px;
+}
